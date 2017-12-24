@@ -1,1 +1,5 @@
-dia_convert(simple.dia simple.png)
+dia_convert(
+            FILTER cairo-alpha-png
+            INPUT simple.dia
+            OUTPUT simple.png
+           )
